@@ -1,0 +1,13 @@
+{
+  "Statement": [
+    {
+      "Sid": "EC2describeAll",
+      "Action": [
+        "ec2:describe*"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+
