@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+    "Sid": "CloudTrailMgmtUpdate",
+    "Action": [
+      "cloudtrail:UpdateTrail"
+    ],
+    "Effect": "Allow",
+    "Resource": "*"
+    }
+  ]
+}

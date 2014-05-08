@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+      "Sid": "ELBread",
+      "Action": [
+        "elasticloadbalancing:DescribeLoadBalancers"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
