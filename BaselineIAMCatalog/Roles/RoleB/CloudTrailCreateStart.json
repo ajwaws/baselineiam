@@ -1,0 +1,15 @@
+{
+  "Statement": [
+  {
+    "Sid": "CloudTrailMgmtCreate",
+    "Action": [
+      "cloudtrail:CreateTrail",
+      "cloudtrail:StartLogging",
+      "cloudtrail:DescribeTrails",
+      "cloudtrail:GetTrailStatus"
+    ],
+    "Effect": "Allow",
+    "Resource": "*"
+  }
+  ]
+}

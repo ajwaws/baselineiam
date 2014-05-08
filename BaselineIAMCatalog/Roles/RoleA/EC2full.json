@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+      "Sid": "Ec2admin",
+      "Action": [
+        "ec2:*"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
